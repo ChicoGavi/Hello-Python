@@ -2,6 +2,8 @@
 
 ### Tuples ###
 
+### Las Tuplas son inmutables lo que significa que una vez creada una tupla, sus elementos no pueden cambiar. ###
+
 # Definición
 
 my_tuple = tuple()
@@ -17,10 +19,11 @@ print(type(my_tuple))
 
 print(my_tuple[0])
 print(my_tuple[-1])
-# print(my_tuple[4]) IndexError
+print(my_tuple[4]) 
 # print(my_tuple[-6]) IndexError
 
 print(my_tuple.count("Brais"))
+# .index () es para saber en que posicion esta un elemento dentro de la tupla
 print(my_tuple.index("Moure"))
 print(my_tuple.index("Brais"))
 
@@ -33,7 +36,7 @@ print(my_sum_tuple)
 
 # Subtuplas
 
-print(my_sum_tuple[3:6])
+print(my_sum_tuple[3:-2])
 
 # Tupla mutable con conversión a lista
 

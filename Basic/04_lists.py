@@ -1,6 +1,7 @@
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=10872
 
 ### Lists ###
+## las Listas son mutables, se pueden insertar valores o modificar valores originales de la lista 
 
 # Definición
 
@@ -59,6 +60,7 @@ print(my_other_list)
 my_list.remove(30)
 print(my_list)
 
+# .pop()  Quita el ultimo elemento por defecto de una fila 
 print(my_list.pop())
 print(my_list)
 
@@ -66,20 +68,25 @@ my_pop_element = my_list.pop(2)
 print(my_pop_element)
 print(my_list)
 
+# del eliminar un elemento por el indice de una lista segun la posicion que se le asigne [2]
 del my_list[2]
 print(my_list)
 
 # Operaciones con listas
 
+# .copy() copia los valores de una lista a otra si es necesario
 my_new_list = my_list.copy()
 
+#.clear(), elimina los elementos dentro de una lista
 my_list.clear()
 print(my_list)
 print(my_new_list)
 
+# .reverse() Pone los elementos de manera contraria el ultimo de primero y el primero de ultimo 
 my_new_list.reverse()
 print(my_new_list)
 
+# .sort() Ordena la lista de menor a mayor por defecto
 my_new_list.sort()
 print(my_new_list)
 
