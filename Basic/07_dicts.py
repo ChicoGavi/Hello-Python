@@ -7,7 +7,7 @@
 my_dict = dict()
 my_other_dict = {}
 
-print(type(my_dict))
+print(type(my_dict)) 
 print(type(my_other_dict))
 
 my_other_dict = {"Nombre": "Brais",
@@ -32,8 +32,8 @@ print(len(my_dict))
 print(my_dict[1])
 print(my_dict["Nombre"])
 
-print("Moure" in my_dict)
-print("Apellido" in my_dict)
+print("Moure" in my_dict) #False
+print("Apellido" in my_dict) #True 
 
 # Inserción
 
@@ -58,6 +58,7 @@ print(my_dict.values())
 
 my_list = ["Nombre", 1, "Piso"]
 
+#Se crea un dict vacio a partir de otros diccionarios
 my_new_dict = dict.fromkeys((my_list))
 print(my_new_dict)
 my_new_dict = dict.fromkeys(("Nombre", 1, "Piso"))

@@ -1,6 +1,6 @@
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=2938
 
-### Variables ###
+### Variables: Se nombran en minuscula y snake case hola_mundo ###
 
 my_string_variable = "My String variable"
 print(my_string_variable)
