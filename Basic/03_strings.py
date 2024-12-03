@@ -18,7 +18,7 @@ print(my_tab_string)
 my_scape_string = "\\tEste es un String \\n  en escapado"
 print(my_scape_string)
 
-# Formateo
+### Formateo ###
 
 name, surname, age = "Brais", "Moure", 35
 
